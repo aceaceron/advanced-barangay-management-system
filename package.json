@@ -1,0 +1,14 @@
+{
+  "name": "smart-barangay-system",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "turbo run dev --parallel"
+  },
+  "devDependencies": {
+    "turbo": "^2.0.0"
+  }
+}

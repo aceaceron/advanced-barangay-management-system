@@ -1,0 +1,1 @@
+export interface Resident { id: number; name: string; address: string; }
